@@ -4,7 +4,7 @@ This repository contains the implementation of **"Beyond DAGs: A Latent Partial 
 
 ## Overview
 
-This project implements a latent partial causal model for multimodal learning, designed to improve feature extraction and linear probing in multimodal settings. The implementation includes several robust variants for handling various data distributions and scenarios.
+This project implements a latent partial causal model for multimodal learning. A key insight from our work is that **pre-trained multimodal models (CLIP-like models) with ICA-processed features can significantly improve downstream tasks that rely on disentangled representations**. The implementation includes several robust variants demonstrating how ICA-based feature disentanglement enhances feature extraction and linear probing across various data distributions and scenarios.
 
 ## Files
 
