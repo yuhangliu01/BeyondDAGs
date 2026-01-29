@@ -15,11 +15,11 @@ This project implements a latent partial causal model for multimodal learning. A
 
 ## CLIP-like Models for Few-Shot Learning
 
-For experiments related to CLIP-like models and few-shot learning (e.g., Fig. 4 in the paper), please refer to our complementary work on contrastive learning:
+For experiments related to CLIP-like models and few-shot learning (e.g., Fig. 4 in the paper), please refer to our complementary work on causal representation learning:
 
-**[CCA: Complementary Contrastive Analysis](https://github.com/tianjiao-j/CCA)** - ICCV 2025
+**[Causal CLIP Adapter](https://github.com/tianjiao-j/CCA)** - ICCV 2025
 
-This repository provides additional implementations for few-shot learning scenarios using contrastive approaches.
+This repository provides additional implementations for few-shot learning scenarios using causal approaches.
 
 ## Citation
 
@@ -36,10 +36,11 @@ If you find this work helpful in your research, please cite the following papers
 For complementary few-shot learning work, please also cite:
 
 ```bibtex
-@inproceedings{jiangcca2025,
-  title={CCA: Complementary Contrastive Analysis},
-  author={Jiang, Tianjiao and others},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+@inproceedings{jiang2025causal,
+  title={Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning},
+  author={Jiang, Tianjiao and Zhang, Zhen and Liu, Yuhang and Shi, Javen Qinfeng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={890--900},
   year={2025}
 }
 ```
