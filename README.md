@@ -26,10 +26,12 @@ This repository provides additional implementations for few-shot learning scenar
 If you find this work helpful in your research, please cite the following papers:
 
 ```bibtex
-@article{liu2024beyonddags,
-  title={Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning},
-  author={Liu, Yuhang and others},
-  year={2024}
+@inproceedings{anonymous2026beyond,
+  title={BeyondDAGs: A Latent Partial Causal Model for Multimodal Learning},
+  author={Yuhang Liu and Zhen Zhang and Dong Gong and Erdun Gao and Biwei Huang and Mingming Gong and Anton van den Hengel and Kun Zhang and Javen Qinfeng Shi},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=bZqCBgm2N0}
 }
 ```
 
